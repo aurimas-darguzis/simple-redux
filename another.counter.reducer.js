@@ -5,8 +5,8 @@ const addCounter = (list) => {
 
 const removeCounter = (list, index) => {
   return [
-    ...list.slice(0, index),
-    ...list.slice(index + 1)
+    ...list.slice(0, index), //  gives part of array from begining to index
+    ...list.slice(index + 1) // get a new array
   ]
   // return list.list(0, index)
   //            .concat(list.slice(index + 1))
